@@ -1,0 +1,81 @@
+{
+  "authors": [{
+      "id": 1,
+      "name": "Pedro Henrique",
+      "birthdate": "03/12/1998",
+      "interest": ["Programming", "C++", "Java", "Javascript"]
+    },
+    {
+      "id": 2,
+      "name": "Lucas Antonio",
+      "birthdate": "17/09/1999",
+      "interest": ["Programming", "C++", "Java", "Javascript"]
+    },
+    {
+      "id": 3,
+      "name": "Glecyene Firmino",
+      "birthdate": "10/03/1999",
+      "interest": ["Programming", "C++", "Java", "Javascript"]
+    },
+    {
+      "id": 4,
+      "name": "Glawber de Morais",
+      "birthdate": "03/12/1998",
+      "interest": ["Programming", "C++", "Java", "Javascript"]
+    }
+  ],
+  "categories": [{
+      "id": 1,
+      "name": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Javascript"
+    },
+    {
+      "id": 3,
+      "name": "C++"
+    },
+    {
+      "id": 4,
+      "name": "Java"
+    }
+  ],
+  "news": [{
+      "id": 1,
+      "authorId": 1,
+      "date": "21/11/2020",
+      "hour": "2:00 PM",
+      "categoryId": 1,
+      "title": "Mapas com React usando Leaflet",
+      "description": "Leaflet é uma biblioteca JavaScript open-source para trabalhar com Mapas em aplicações web e mobile. Pode ser simplesmente integrada a um site usando apenas HTML, CSS e JavaScript. Podemos também integrar a Leaflet ao React com a biblioteca React Leaflet, que tem suporte ao TypeScript sendo bastante simples de utilizar.Ambas serão utilizadas em nossa aplicação de demonstração."
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "date": "21/11/2020",
+      "hour": "3:00 PM",
+      "categoryId": 2,
+      "title": "Como renomear vários arquivos de uma vez usando o terminal",
+      "description": "Suponha que seu projeto tenha uma base de código com 150 arquivos JavaScript e você precisar migrar para TypeScript alterando as extensões dos arquivos. 🤔 Como renomear a extensão do arquivo de .js para .ts ou arquivos React de .jsx para .tsx de maneira fácil e rápida? Fazer isso manualmente é inviável! E, para nós Devs, isso pode ser automatizado."
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "date": "21/11/2020",
+      "hour": "4:00 PM",
+      "categoryId": 3,
+      "title": "Construindo App com Mapa usando React Native Maps e MapBox",
+      "description": "Neste post vamos mostrar como desenvolver um app no React Native para trabalhar com Mapas e Geolocalização. Já falamos sobre a atualização do SDK 38 do Expo e como ele melhorou a criação de aplicativos com React Native. Vamos usar o create-react-native-app para criar nossos projetos e obter os benefícios de ter as libs do expo com as unimodules."
+    },
+    {
+      "id": 4,
+      "authorId": 4,
+      "date": "21/11/2020",
+      "hour": "5:00 PM",
+      "categoryId": 4,
+      "title": "Criando um Blog com contador de visitas usando NextJS e MongoDB",
+      "description": "Neste post vamos aprender a criar um Blog com NextJS, usando o MongoDB para gerenciar um contador de visitas em cada post e exibir no preview da home page. Usaremos a Fetch API para buscar os dados e o SWR para nos auxiliar nas revalidações dos mesmos. No final vamos hospedar em produção usando a Vercel."
+    }
+  ]
+}
