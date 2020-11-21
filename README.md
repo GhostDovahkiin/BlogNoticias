@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Bloggews" title="#Bloggews" src="./assets/banner.png" />
+    <img alt="Bloggews" style="height:400px;" title="#Bloggews" src="./assets/banner.png" />
     <br>
 </h1>
 
