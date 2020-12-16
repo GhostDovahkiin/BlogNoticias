@@ -15,6 +15,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { NewsCrudComponent } from './views/news-crud/news-crud.component';
+import { AboutComponent } from './views/about/about.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { NewsCrudComponent } from './views/news-crud/news-crud.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    NewsCrudComponent
+    NewsCrudComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
