@@ -18,6 +18,7 @@ import { NewsCrudComponent } from './views/news-crud/news-crud.component';
 import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { RedDirective } from './directives/red.directive';
+import { NewsCreateComponent } from './components/news/news-create/news-create.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RedDirective } from './directives/red.directive';
     NewsCrudComponent,
     AboutComponent,
     ContactComponent,
-    RedDirective
+    RedDirective,
+    NewsCreateComponent
   ],
   imports: [
     BrowserModule,

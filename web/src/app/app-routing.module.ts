@@ -5,6 +5,8 @@ import { HomeComponent } from './views/home/home.component';
 import { NewsCrudComponent } from './views/news-crud/news-crud.component';
 import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
+import './components/news/news-create/news-create.component';
+import { NewsCreateComponent } from './components/news/news-create/news-create.component';
 
 const routes: Routes = [
   {
@@ -22,6 +24,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'news/create',
+    component: NewsCreateComponent
   }
 ];
 
