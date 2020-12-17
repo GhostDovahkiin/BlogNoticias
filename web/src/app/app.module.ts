@@ -17,6 +17,7 @@ import { HomeComponent } from './views/home/home.component';
 import { NewsCrudComponent } from './views/news-crud/news-crud.component';
 import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { RedDirective } from './directives/red.directive';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContactComponent } from './views/contact/contact.component';
     HomeComponent,
     NewsCrudComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
