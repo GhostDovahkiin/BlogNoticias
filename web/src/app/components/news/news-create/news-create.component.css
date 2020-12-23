@@ -1,0 +1,9 @@
+.button-create {
+  margin-left: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+mat-drawer-container, mat-sidenav-content {
+  background-color: white;
+}
