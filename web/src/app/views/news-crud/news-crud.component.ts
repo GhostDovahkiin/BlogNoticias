@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-news-crud',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news-crud.component.css']
 })
 export class NewsCrudComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private router: Router) {
+    //
   }
 
+  ngOnInit(): void {
+    //
+  }
+
+  navigateToNewsCreate(): void {
+    this.router.navigate(['/news/create']);
+  }
 }
