@@ -1,3 +1,4 @@
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -9,7 +10,6 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
-
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
@@ -19,6 +19,8 @@ import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { RedDirective } from './directives/red.directive';
 import { NewsCreateComponent } from './components/news/news-create/news-create.component';
+import { MatButtonModule } from '@angular/material/button';
+import { BgWhiteDirective } from './directives/bg-white.directive';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { NewsCreateComponent } from './components/news/news-create/news-create.c
     AboutComponent,
     ContactComponent,
     RedDirective,
-    NewsCreateComponent
+    NewsCreateComponent,
+    BgWhiteDirective
   ],
   imports: [
     BrowserModule,
@@ -40,7 +43,9 @@ import { NewsCreateComponent } from './components/news/news-create/news-create.c
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
