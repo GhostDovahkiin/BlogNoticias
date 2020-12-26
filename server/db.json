@@ -1,30 +1,52 @@
 {
-  "authors": [{
+  "authors": [
+    {
       "id": 1,
       "name": "Pedro Henrique",
       "birthdate": "03/12/1998",
-      "interest": ["Programming", "C++", "Java", "Javascript"]
+      "interest": [
+        "Programming",
+        "C++",
+        "Java",
+        "Javascript"
+      ]
     },
     {
       "id": 2,
       "name": "Lucas Antonio",
       "birthdate": "17/09/1999",
-      "interest": ["Programming", "C++", "Java", "Javascript"]
+      "interest": [
+        "Programming",
+        "C++",
+        "Java",
+        "Javascript"
+      ]
     },
     {
       "id": 3,
       "name": "Glecyene Firmino",
       "birthdate": "10/03/1999",
-      "interest": ["Programming", "C++", "Java", "Javascript"]
+      "interest": [
+        "Programming",
+        "C++",
+        "Java",
+        "Javascript"
+      ]
     },
     {
       "id": 4,
       "name": "Glawber de Morais",
       "birthdate": "03/12/1998",
-      "interest": ["Programming", "C++", "Java", "Javascript"]
+      "interest": [
+        "Programming",
+        "C++",
+        "Java",
+        "Javascript"
+      ]
     }
   ],
-  "categories": [{
+  "categories": [
+    {
       "id": 1,
       "name": "Programming"
     },
@@ -41,7 +63,8 @@
       "name": "Java"
     }
   ],
-  "news": [{
+  "news": [
+    {
       "id": 1,
       "authorId": 1,
       "date": "21/11/2020",
@@ -76,6 +99,15 @@
       "categoryId": 4,
       "title": "Criando um Blog com contador de visitas usando NextJS e MongoDB",
       "description": "Neste post vamos aprender a criar um Blog com NextJS, usando o MongoDB para gerenciar um contador de visitas em cada post e exibir no preview da home page. Usaremos a Fetch API para buscar os dados e o SWR para nos auxiliar nas revalidações dos mesmos. No final vamos hospedar em produção usando a Vercel."
+    },
+    {
+      "authorId": 2,
+      "date": "12/26/2020",
+      "hour": "1:10 PM",
+      "categoryId": 2,
+      "title": "Axios - um cliente HTTP Full Stack",
+      "description": "Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quando no Node.js. É um projeto open source, disponível no Github, tem 77 mil stars e 7 mil forks! Muito utilizado e está sendo bem mantido pela comunidade.",
+      "id": 5
     }
   ]
 }

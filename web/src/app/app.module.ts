@@ -22,6 +22,8 @@ import { NewsCreateComponent } from './components/news/news-create/news-create.c
 import { MatButtonModule } from '@angular/material/button';
 import { BgWhiteDirective } from './directives/bg-white.directive';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +47,8 @@ import { BgWhiteDirective } from './directives/bg-white.directive';
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
